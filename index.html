@@ -27,7 +27,7 @@
 			margin-right: 0% !important;
 		}
 
-		nav, a{
+		.nav, a{
 			font-size: 1em;
 			padding: 2px;
 			margin-right:7px;
@@ -68,10 +68,7 @@
 		}
 
 		.right-aligned{
-			/*position: relative;*/
-			/*left:30%;
-			top:10px;*/
-			margin-left: 30%;
+			margin-left: 35%;
 		}
 
 		div p{
@@ -96,6 +93,55 @@
 			color: black;
 			font-weight: bold;
 		}
+
+		#right-text{
+			text-align: right;
+			margin-right: 10px;
+			color: orange;
+		}
+
+		#signal{
+			height: 1em;
+		}
+
+		.no-bullet{
+			list-style-type: none;
+		}
+
+		.chart-width{
+			width: 70px;
+		}
+
+		.index-name{
+			color: #188fff;
+			font-weight: bold;
+		}
+
+		.index-volume{
+			font-weight: bold;
+		}
+
+		.index-change{
+			color: #093;
+			font-size: 0.8em;
+			font-weight: bold;
+		}
+		
+		.show{
+			background-color: grey;
+		}
+
+		/*
+		DELETE THIS ^^^^^^^^
+		*/
+
+		.divider{
+			border-right: 1px solid;
+			border-color: grey;
+		}
+
+
+
 
 
 
@@ -146,7 +192,7 @@
 		<button class="btn btn-primary mx-3 px-5" type="submit">Search</button>
 		<div class="right-aligned">
 			<span class="glyphicon glyphicon-user lined-up"></span>
-			<p class="lined-up">Kevin</p>
+			<h4 class="lined-up">Kevin</h4>
 			<span class="glyphicon glyphicon-bell" id="bell"></span>
 			<span class="glyphicon glyphicon-envelope" id="mail"></span>
 
@@ -169,7 +215,55 @@
 		
 	</nav>
 	
-	<hr>
+	<hr class="my-3">
+
+	<p id="right-text">
+	<img src="signal.png" id="signal">	
+	US Markets are closed
+	</p>
+
+	<div class="container ml-0">
+		<div class="row">
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">S&P 500</li>
+					<li class="index-volume">2,840.35</li>
+					<li class="index-change">+13.13 (+0.46%)</li>
+				</ul>
+				
+			</div>
+			<div class="col-sm-1 divider">
+				<img src="S&P.png" class="mt-5 chart-width">
+			</div>
+
+			<!-- Dow 25,462.58 +136.42 (+0.54%) -->
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">Dow 30</li>
+					<li class="index-volume">25,462.58</li>
+					<li class="index-change">+136.42 (+0.54%)</li>
+				</ul>
+			</div>
+			<div class="col-sm-1 divider">
+				<img src="Dow.png" class="mt-5 chart-width">
+			</div>
+
+			<!-- Nasdaq 7,812.01 +9.33 (+0.12%)-->
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">Nasdaq</li>
+					<li class="index-volume">7,812</li>
+					<li class="index-change">+9.33 (+0.12%)</li>
+				</ul>
+			</div>
+			<div class="col-sm-1 divider">
+				<img src="Nasdaq.png" class="mt-5 chart-width">
+			</div>
+
+
+
+		</div>
+	</div>
 
 
 
