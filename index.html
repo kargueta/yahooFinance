@@ -80,7 +80,7 @@
 			margin-left: 20px;
 		}
 
-		.right-aligned span{
+		.yahoo-purple span{
 			color: rgb(64, 0, 144);
 		}
 
@@ -140,6 +140,41 @@
 			border-color: grey;
 		}
 
+		.negative{
+			color: red;
+		}
+
+		.portfolio{
+			margin-left: 30px;
+			color: #188fff;
+			font-weight: bold;
+		}
+
+		.slash{
+			color: #d8dade;
+			font-weight: bold;
+		}
+
+		.bold{
+			font-weight: bold;
+		}
+
+		.right-side{
+			margin-left: 55%;
+		}
+
+		.grey-text{
+			color: #787d82;
+		}
+
+		.lighter{
+			font-weight: lighter;
+		}
+
+		.blue-text{
+			color: rgb(24, 143, 255);
+		}
+
 
 
 
@@ -190,7 +225,7 @@
 		</div>
 
 		<button class="btn btn-primary mx-3 px-5" type="submit">Search</button>
-		<div class="right-aligned">
+		<div class="right-aligned yahoo-purple">
 			<span class="glyphicon glyphicon-user lined-up"></span>
 			<h4 class="lined-up">Kevin</h4>
 			<span class="glyphicon glyphicon-bell" id="bell"></span>
@@ -260,10 +295,42 @@
 				<img src="Nasdaq.png" class="mt-5 chart-width">
 			</div>
 
+			<!-- Russell 2000-->
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">Russell 2000</li>
+					<li class="index-volume">1,673.37</li>
+					<li class="index-change negative">-8.73 (-0.52%)</li>
+				</ul>
+			</div>
+			<div class="col-sm-1">
+				<img src="Russell.png" class="mt-5 chart-width">
+			</div>
 
+			<button style="height: auto">
+				<span class="glyphicon glyphicon-menu-left" style="color: lightgrey; border:none !important"></span>
+			</button>
+			<button style="height: auto">
+				<span class="glyphicon glyphicon-menu-right" style="color: #188fff; border:none !important"></span>
+			</button>
 
 		</div>
 	</div>
+
+	<nav class="nav">
+		<h4 class="portfolio">My Porfoltios</h4>
+		<h4 class="slash mx-3">/</h4>
+		<h4 class="bold">CareerDevs</h4>
+		<span class="glyphicon glyphicon-menu-down mt-3 bold"></span>
+		<h6 class="right-side grey-text lighter">People also watch:</h6>
+		<h5 class="blue-text mx-3">TSLA</h5>
+		<h5 class="blue-text mr-3">AMZN</h5>
+		<h5 class="blue-text mr-3">IBM</h5>
+		<h5 class="blue-text mr-3">INTC</h5>
+		<h5 class="blue-text mr-3">FB</h5>
+	</nav>
+
+	
 
 
 
