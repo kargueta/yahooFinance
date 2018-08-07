@@ -175,6 +175,52 @@
 			color: rgb(24, 143, 255);
 		}
 
+		.right-sided-2{
+			margin-left: 60%;
+		}
+
+		.import{
+			transform: rotate(-90deg);
+
+		}
+
+		.export{
+			transform: rotate(90deg);
+		}
+
+
+
+		.menu{
+			text-decoration: none;
+			color: #008cff;
+			text-align: center;
+		}
+
+		.menu-grey{
+			background-color:#f5f5f7;
+		}
+
+		.menu-box{
+			display: inline-block;
+			font-size: 1.1em;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+
+		/*#filler{
+			width: 10%;
+
+		}*/
+
+		#summary{
+			/*margin: 10px 2px 10px 2px;*/
+			background-color: #e5f3ff;
+			border-bottom: 2px solid #008cff;
+
+		}
+
 
 
 
@@ -330,7 +376,51 @@
 		<h5 class="blue-text mr-3">FB</h5>
 	</nav>
 
-	
+	<nav class="nav">
+		<!-- <div class=""></div> -->
+		<span class="glyphicon glyphicon-link right-sided-2 blue-text mt-3"></span>
+		<h5 class="blue-text ml-2">Link Broker</h5>
+		<span class="glyphicon glyphicon-plus mt-3 blue-text ml-3"></span>
+		<h5 class="blue-text ml-2">Create Portfolio</h5>
+		<span class="blue-text ml-3 glyphicon glyphicon-print mt-3"></span>
+		<h5 class="blue-text ml-2">Print</h5>
+		<span class="blue-text ml-5 glyphicon glyphicon-log-out import"
+		></span>
+		<h5 class="blue-text ml-0">Import</h5>
+		<span class="blue-text ml-2 glyphicon glyphicon-log-in export"
+		></span>
+		<h5 class="blue-text ml-3">Export</h5>
+		<span class="glyphicon glyphicon-cog blue-text mt-3 ml-3"></span>
+		<h5 class="blue-text ml-2">Settings</h5>
+		<nav class="nav mr-0" id="summary">
+			<div class="menu-box">
+				<a href="#" class="menu">Summary</a>
+			</div>
+		</nav>
+		<nav class="nav menu-grey">
+			<!-- <div class="menu-box" id="summary">
+				<a href="#" class="menu">My Holdings</a>
+			</div> -->
+			<div class="menu-box">
+				<a href="#" class="menu">My Holdings</a>
+			</div>
+			<div class="menu-box">
+				<a href="#" class="menu">Fundamentals</a>
+			</div>
+			<div class="menu-box">
+				<a href="#" class="menu">+ Create New View</a>
+			</div>
+			<!-- <div class="menu-box" id="filler">
+				
+			</div> -->
+		</nav>
+
+
+
+		
+	</nav>
+
+
 
 
 
