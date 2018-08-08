@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="yahooApp.png">
+	<title>News</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+		.inline .card{
+			display: inline-block;
+		}
+		.card img{
+			height: 90px;
+		}
+
+		.container a{
+			font-size: 0.6em;
+		}
+
+		.card-text{
+			word-wrap: break-word;
+		}
+
+		.img-r{
+
+		}
+	
+	</style>
+</head>
+<body>
+	<div>
+		
+	</div>
+	<nav class="nav bg-purple">
+		<!-- <div> -->
+			<span class="glyphicon glyphicon-home contrast lined-up"></span>
+			<a class="contrast lined-up" href="#">Home<a/>
+			<a class="contrast lined-up" href="#">Mail<a/>
+			<a class="contrast lined-up" href="#">Tumblr<a/>
+			<a class="contrast lined-up" href="#">News<a/>
+			<a class="contrast lined-up" href="#">Finance<a/>
+			<a class="contrast lined-up" href="#">Entertainment<a/>
+			<a class="contrast lined-up" href="#">Lifestyle<a/>
+			<a class="contrast lined-up" href="#">Answers<a/>
+			<a class="contrast lined-up" href="#">Groups<a/>
+			<a class="contrast lined-up" href="#">Mobile<a/>
+			<a class="contrast lined-up" href="#">More<a/>
+			<span class="glyphicon glyphicon-menu-down contrast"></span>
+
+
+		<!-- </div> -->
+		
+
+	</nav>
+
+	<nav class="nav bg-white">
+		<img src="financeLogo.png" id="financeLogo">
+
+		<div class="search">
+			<span class="glyphicon glyphicon-search iconic"></span>
+			<input class="form-control" type="text" placeholder="Search for news, symbols, or companies" aria-label="Search">
+		</div>
+
+		<button class="btn btn-primary mx-3 px-5" type="submit">Search</button>
+		<div class="right-aligned yahoo-purple">
+			<span class="glyphicon glyphicon-user lined-up"></span>
+			<h4 class="lined-up">Kevin</h4>
+			<span class="glyphicon glyphicon-bell" id="bell"></span>
+			<span class="glyphicon glyphicon-envelope" id="mail"></span>
+
+		</div>
+
+
+	</nav>
+
+	<nav class="nav navbar2">
+		<a href="Home.html">Finance Home</a>
+		<a href="#">Watchlists</a>
+		<a href="index.html">My Portfolio</a>
+		<a href="#">My Screeners</a>
+		<a href="#">Markets</a>
+		<a href="#">Industries</a>
+		<a href="#">Personal Finance</a>
+		<a href="#">Technology</a>
+		<a href="#">Originals</a>
+		<a href="#">Events</a>
+		
+	</nav>
+	
+	<hr class="my-3">
+
+	<p id="right-text">
+	<img src="signal.png" id="signal">	
+	US Markets are closed
+	</p>
+
+	<div class="container ml-0">
+		<div class="row">
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">
+						<a href="https://finance.yahoo.com/quote/%5EGSPC?p=^GSPC">S&P 500</a>
+					</li>
+					<li class="index-volume">
+					2,840.35
+					</li>
+					<li class="index-change">+13.13 (+0.46%)</li>
+				</ul>
+				
+			</div>
+			<div class="col-sm-1 divider">
+				<img src="S&P.png" class="mt-5 chart-width">
+			</div>
+
+			<!-- Dow 25,462.58 +136.42 (+0.54%) -->
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">
+						<a href="https://finance.yahoo.com/quote/%5EDJI?p=^DJI">Dow 30</a>
+					</li>
+					<li class="index-volume">25,462.58</li>
+					<li class="index-change">+136.42 (+0.54%)</li>
+				</ul>
+			</div>
+			<div class="col-sm-1 divider">
+				<img src="Dow.png" class="mt-5 chart-width">
+			</div>
+
+			<!-- Nasdaq 7,812.01 +9.33 (+0.12%)-->
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">
+					<a href="https://finance.yahoo.com/quote/%5EIXIC?p=^IXIC">Nasdaq</a>
+					</li>
+					<li class="index-volume">7,812</li>
+					<li class="index-change">+9.33 (+0.12%)</li>
+				</ul>
+			</div>
+			<div class="col-sm-1 divider">
+				<img src="Nasdaq.png" class="mt-5 chart-width">
+			</div>
+
+			<!-- Russell 2000-->
+			<div class="col-" >
+				<ul class="no-bullet">
+					<li class="index-name">
+					<a href="https://finance.yahoo.com/quote/%5ERUT?p=^RUT">Russell 2000</a>
+					</li>
+					<li class="index-volume">1,673.37</li>
+					<li class="index-change negative">-8.73 (-0.52%)</li>
+				</ul>
+			</div>
+			<div class="col-sm-1">
+				<img src="Russell.png" class="mt-5 chart-width">
+			</div>
+
+			<button style="height: auto">
+				<span class="glyphicon glyphicon-menu-left" style="color: lightgrey; border:none !important"></span>
+			</button>
+			<button style="height: auto">
+				<span class="glyphicon glyphicon-menu-right" style="color: #188fff; border:none !important"></span>
+			</button>
+
+		</div>
+	</div>
+
+	<!-- <img src="Musk-news.png"> -->
+	<div class="container" style="width: auto; height: auto">
+		<div class="row">
+			<img src="Musk.png" style="height: 340px">
+		</div>
+		<div class="row inline" style="height: 50px">
+			<div class="col-sm-">
+				<div class="card">
+					<img src="S&P-news.png" class=" img-r ">
+					<div class="card-text">
+					<a href="#">S&P nears record on technology boost</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-">
+				<div class="card">
+					<img src="Fox-news.png" class=" img-r ">
+					<div class="card-text">
+						<a href="#">Fox, makes formal offer for Sky, but...</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-">
+				<div class="card">
+					<img src="Facebook-news.png" class=" img-r ">
+					<div class="card-text">
+						<a href="#">Facebook users are having a hard time...</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-">
+				<div class="card">
+					<img src="Trump-news.png" class=" img-r ">
+					<div class="card-text">
+						<a href="#">Corporate America should avoid Trump</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-">
+				<div class="card">
+					<img src="Gates-news.png" class=" img-r ">
+					<div class="card-text">
+						<a href="#">Gates describes funneling millions...</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+		<!-- <div class="card">
+			<img src="Musk.png" style="width: 1000px; height: auto">
+		</div>
+		<div class="card">
+			<img src="Musk.png" style="width: 1000px; height: auto">
+		</div> -->
+
+	
+
+
+</body>
+</html>

@@ -1,127 +1,127 @@
 body{
-	font-family: “Helvetica Neue”, Arial, sans-serif;
-	font-size: 1.3em;
-}
-.bg-purple{
-	background-color: #2d1152;
-}
-.contrast{
-	color:white;
-}
+			font-family: “Helvetica Neue”, Arial, sans-serif;
+			font-size: 1.3em;
+		}
+		.bg-purple{
+			background-color: #2d1152;
+		}
+		.contrast{
+			color:white;
+		}
 
-.lined-up{
-	display:inline-block;
-	margin-left: 1px;
-	margin-right: 1px;
-}
-nav{
-	margin-left: 0% !important;
-	margin-right: 0% !important;
-}
+		.lined-up{
+			display:inline-block;
+			margin-left: 1px;
+			margin-right: 1px;
+		}
+		nav{
+			margin-left: 0% !important;
+			margin-right: 0% !important;
+		}
 
-.nav, a{
-	font-size: 1em;
-	padding: 2px;
-	margin-right:7px;
-	margin-left:7px;
-}
+		.nav, a{
+			font-size: 1em;
+			padding: 2px;
+			margin-right:7px;
+			margin-left:7px;
+		}
 
-#financeLogo{
-	width: 90px;
-	height: 100%;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.search {
-	position: relative;
-	font-size: 16px;
-	width:30%;
-}
+		#financeLogo{
+			width: 90px;
+			height: 100%;
+			margin-right: 50px;
+			margin-left: 50px;
+		}
+		.search {
+			position: relative;
+			font-size: 16px;
+			width:30%;
+		}
 
-.search input {
-	/*width: 300%;*/
-	height: 32px;
+		.search input {
+			/*width: 300%;*/
+			height: 32px;
 
-	border: 1px solid #aaa;
-}
+			border: 1px solid #aaa;
+		}
 
-.search input { 
-	text-indent: 32px;
-}
+		.search input { 
+			text-indent: 32px;
+		}
 
-.search .iconic { 
-	position: absolute;
-	top: 10px;
-	left: 10px;
-}
+		.search .iconic { 
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
 
-button{
-	height: 32px;
-}
+		.container button{
+			height: 32px;
+		}
 
-.right-aligned{
-	margin-left: 35%;
-}
+		.right-aligned{
+			margin-left: 35%;
+		}
 
-div p{
-	color: #2d1152;
-	font-size: 1.5em;
-}
+		div p{
+			color: #2d1152;
+			font-size: 1.5em;
+		}
 
-#bell{
-	margin-left: 20px;
-}
+		#bell{
+			margin-left: 20px;
+		}
 
-.yahoo-purple span{
-	color: rgb(64, 0, 144);
-}
+		.yahoo-purple span{
+			color: rgb(64, 0, 144);
+		}
 
-#mail{
-	margin-left: 20px;
-}
+		#mail{
+			margin-left: 20px;
+		}
 
-.navbar2 a{
-	text-decoration: none !important;
-	color: black;
-	font-weight: bold;
-}
+		.navbar2 a{
+			text-decoration: none !important;
+			color: black;
+			font-weight: bold;
+		}
 
-#right-text{
-	text-align: right;
-	margin-right: 10px;
-	color: orange;
-}
+		#right-text{
+			text-align: right;
+			margin-right: 10px;
+			color: orange;
+		}
 
-#signal{
-	height: 1em;
-}
+		#signal{
+			height: 1em;
+		}
 
-.no-bullet{
-	list-style-type: none;
-}
+		.no-bullet{
+			list-style-type: none;
+		}
 
-.chart-width{
-	width: 70px;
-}
+		.chart-width{
+			width: 70px;
+		}
 
-.index-name{
-	color: #188fff;
-	font-weight: bold;
-}
+		.index-name{
+			color: #188fff;
+			font-weight: bold;
+		}
 
-.index-volume{
-	font-weight: bold;
-}
+		.index-volume{
+			font-weight: bold;
+		}
 
-.index-change{
-	color: #093;
-	font-size: 0.8em;
-	font-weight: bold;
-}
-
-.show{
-	background-color: grey;
-}
+		.index-change{
+			color: #093;
+			font-size: 0.8em;
+			font-weight: bold;
+		}
+		
+		.show{
+			background-color: grey;
+		}
 
 		/*
 		DELETE THIS ^^^^^^^^
@@ -204,11 +204,62 @@ div p{
 		/*#filler{
 			width: 10%;
 
-			}*/
+		}*/
 
-			#summary{
-				/*margin: 10px 2px 10px 2px;*/
-				background-color: #e5f3ff;
-				border-bottom: 2px solid #008cff;
+		#summary{
+			/*margin: 10px 2px 10px 2px;*/
+			background-color: #e5f3ff;
+			border-bottom: 2px solid #008cff;
 
-			}
+		}
+
+		table{
+			/*width: auto;
+			height: auto;*/
+			/*width: 500px;*/
+			margin-left: 30px;
+		}
+
+		.table-div{
+			height: 290px !important; 
+			width: 1100px;
+		}
+		thead th{
+			text-decoration: none;
+			font-weight: lighter;
+			color:#5e656c;
+			font-size: 0.5em;
+		}
+
+		th{
+			margin-top: 0px;
+			/*width: 1000px;*/
+			padding-top: 0px;	
+		}
+
+		tbody{
+			text-decoration: none;
+			font-weight: lighter;
+			/*color: rgb(0,0,0);*/
+			font-size: 0.4em;
+		}
+
+		.shares-alignment{
+			text-align:right;
+		}
+
+		.positive{
+			color: green;
+		}
+
+		.table-div button{
+			height: 20px;
+			padding: 0 !important;
+			padding-left: 3px !important;
+			padding-right: 5px !important;
+		}
+
+		.form-check-input{
+			position: relative;
+			right:15px;
+		}
