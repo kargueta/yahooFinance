@@ -11,13 +11,13 @@
 			/*width: auto;
 			height: auto;*/
 			/*width: 500px;*/
-			margin-left: 10px;
+			margin-left: 20px;
 		}
 		thead th{
 			text-decoration: none;
 			font-weight: lighter;
 			color:#5e656c;
-			font-size: 0.7em;
+			font-size: 0.5em;
 		}
 
 		th{
@@ -26,19 +26,34 @@
 			padding-top: 0px;	
 		}
 
-		tr{
+		tbody{
 			text-decoration: none;
 			font-weight: lighter;
 			/*color: rgb(0,0,0);*/
-			font-size: 0.8em;
-			padding-top: 0px;
+			font-size: 0.4em;
 		}
+
+		.shares-alignment{
+			text-align:right;
+		}
+
+		.positive{
+			color: green;
+		}
+
+		button{
+			height: 20px;
+			padding: 0 !important;
+			padding-left: 3px !important;
+			padding-right: 5px !important;
+		}
+
 
 
 	</style>
 </head>
 <body>
-	<div style="width: 600px">
+	<div style="height: 300px; width: 1200px">
 		<table class="table table-striped">
 			<thead>
 				<th>
@@ -67,20 +82,271 @@
 					Shares
 				</th>
 				<th>
-					Avg Vol
+					Avg Vol (3m)
+				</th>
+				<th>
+					Day Range
+				</th>
+				<th>
+					52 Wk-Range
+				</th>
+				<th>
+					Day Chart
+				</th>
+				<th>
+					Market Cap
+				</th>
+				<th>
+					Buy/Sell
 				</th>
 			</thead>
 			<tbody>
 				<tr>
-					<th>
+					<th scope="row">
 						<input class="form-check-input" type="checkbox" value="">
-						Hello
+						<p class="blue-text my-0">3402.T</p>
 					</th>
-					<td></td>
+					<td>
+						<p class="my-0">843.70</p>
+					</td>
+					<td>
+						<p class="my-0 negative">-5.80</p>
+					</td>
+					<td>
+						<p class="my-0 negative">-0.68%</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">JPY</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">Aug 7 JST</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">4.92M</p>
+					</td>
+					<td>
+						<p class="my-0 lighter shares-alignment">-</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">6.01M</p>
+					</td>
+					<td colspan="3">
+						<img src="Toray-chart.png" style="width: 300px">
+					</td>
+					<td>
+						<p class="my-0 lighter">1.35T</p>
+					</td>
+					<td>
+						
+					</td>
+
+				</tr>
+				<!-- S&P 500 ETF -->
+				<tr>
+					<th scope="row">
+						<input class="form-check-input" type="checkbox" value="">
+						<p class="blue-text my-0">SPY</p>
+					</th>
+					<td>
+						<p class="my-0">284.64</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+1.04</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+0.37%</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">USD</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">4:00 PM EDT</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">39.40M</p>
+					</td>
+					<td>
+						<p class="my-0 lighter shares-alignment">-</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">67.37M</p>
+					</td>
+					<td colspan="3">
+						<img src="S&P-chart.png" style="width: 300px">
+					</td>
+					<td>
+						<p class="my-0 lighter">274.49B</p>
+					</td>
+					<td>
+						<button type="button" class="btn btn-outline-secondary blue-text">Trade</button>
+					</td>
+					
+				</tr>
+				<!-- BLDP -->
+				<tr>
+					<th scope="row">
+						<input class="form-check-input" type="checkbox" value="">
+						<p class="blue-text my-0">BLDP</p>
+					</th>
+					<td>
+						<p class="my-0">3.13</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+0.05</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+1.62%</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">USD</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">4:00 PM EDT</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">462.44k</p>
+					</td>
+					<td>
+						<p class="my-0 lighter shares-alignment">-</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">682.03k</p>
+					</td>
+					<td colspan="3">
+						<img src="Ballard-chart.png" style="width: 300px">
+					</td>
+					<td>
+						<p class="my-0 lighter">556.23B</p>
+					</td>
+					<td>
+						<button type="button" class="btn btn-outline-secondary blue-text">Trade</button>
+					</td>
+				</tr>
+				<!-- CGNX -->
+				<tr>
+					<th scope="row">
+						<input class="form-check-input" type="checkbox" value="">
+						<p class="blue-text my-0">CGNX</p>
+					</th>
+					<td>
+						<p class="my-0">52.95</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+0.07</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+0.13%</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">USD</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">4:00 PM EDT</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">1.33M</p>
+					</td>
+					<td>
+						<p class="my-0 lighter shares-alignment">-</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">1.32M</p>
+					</td>
+					<td colspan="3">
+						<img src="Cognex-chart.png" style="width: 300px">
+					</td>
+					<td>
+						<p class="my-0 lighter">9.19B</p>
+					</td>
+					<td>
+						<button type="button" class="btn btn-outline-secondary blue-text">Trade</button>
+					</td>
+				</tr>
+				<!-- GOOG -->
+				<tr>
+					<th scope="row">
+						<input class="form-check-input" type="checkbox" value="">
+						<p class="blue-text my-0">GOOG</p>
+					</th>
+					<td>
+						<p class="my-0">1,224.77</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+1.06</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+0.09%</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">USD</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">4:00 PM EDT</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">1.08M</p>
+					</td>
+					<td>
+						<p class="my-0 lighter shares-alignment">-</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">1.48M</p>
+					</td>
+					<td colspan="3">
+						<img src="Google-chart.png" style="width: 300px">
+					</td>
+					<td>
+						<p class="my-0 lighter">871.29B</p>
+					</td>
+					<td>
+						<button type="button" class="btn btn-outline-secondary blue-text">Trade</button>
+					</td>
+				</tr>
+				<!-- AAPL -->
+				<tr>
+					<th scope="row">
+						<input class="form-check-input" type="checkbox" value="">
+						<p class="blue-text my-0">APPL</p>
+					</th>
+					<td>
+						<p class="my-0">209.07</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+1.08</p>
+					</td>
+					<td>
+						<p class="my-0 positive">+0.52%</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">USD</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">4:00 PM EDT</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">25.43M</p>
+					</td>
+					<td>
+						<p class="my-0 lighter shares-alignment">-</p>
+					</td>
+					<td>
+						<p class="my-0 lighter">23.43M</p>
+					</td>
+					<td colspan="3">
+						<img src="Apple-chart.png" style="width: 300px">
+					</td>
+					<td>
+						<p class="my-0 lighter">1.00T</p>
+					</td>
+					<td>
+						<button type="button" class="btn btn-outline-secondary blue-text">Trade</button>
+					</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+
+
 
 </body>
 </html>
